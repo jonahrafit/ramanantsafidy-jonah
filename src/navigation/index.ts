@@ -1,10 +1,9 @@
 // ** Icon imports
-import Table from 'mdi-material-ui/Table'
-import CubeOutline from 'mdi-material-ui/CubeOutline'
 import HomeOutline from 'mdi-material-ui/HomeOutline'
-import FormatLetterCase from 'mdi-material-ui/FormatLetterCase'
-import CreditCardOutline from 'mdi-material-ui/CreditCardOutline'
-import GoogleCirclesExtended from 'mdi-material-ui/GoogleCirclesExtended'
+import { CardAccountDetailsOutline } from 'mdi-material-ui'
+import Laptop from 'mdi-material-ui/Laptop'
+import ProfessionalHexagon from 'mdi-material-ui/ProfessionalHexagon'
+import MedalOutline from 'mdi-material-ui/MedalOutline'
 
 // ** Type import
 import { VerticalNavItemsType } from 'src/@core/layouts/types'
@@ -21,21 +20,21 @@ const navigation = (): VerticalNavItemsType => {
     },
     {
       title: 'Mes Expériences pro',
-      icon: FormatLetterCase,
+      icon: ProfessionalHexagon,
       path: '/experiences-professionnelles'
     },
     {
-      title: 'Mes Compétences',
+      title: "Domaine d'expertise",
       path: '/icons',
-      icon: GoogleCirclesExtended
+      icon: Laptop
     },
     {
       title: 'Mes réalisations',
-      icon: CreditCardOutline,
+      icon: MedalOutline,
       path: '/cards'
     },
     {
-      icon: CubeOutline,
+      icon: CardAccountDetailsOutline,
       title: 'Contact',
       path: '/form-layouts'
     }
